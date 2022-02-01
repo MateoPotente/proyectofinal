@@ -1,0 +1,31 @@
+.navegacionInicio{
+    color: #011750;
+    display: grid;
+    height: fit-content;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "imgInicio emprendimientos contacto sobreNosotros"
+    ;
+    gap: 15px;
+    background-color: white;
+    font-size: 32px;
+    border-radius: 20px;
+}
+.imgInicio{
+    justify-self: center;
+    align-self: center;
+    transition: all 1s ease;
+}
+.emprendimientos{
+    justify-self: center;
+    align-self: center;
+}
+.contacto{
+    justify-self: center;
+    align-self: center;
+}
+.sobreNosotros{
+    justify-self: center;
+    align-self: center;
+}

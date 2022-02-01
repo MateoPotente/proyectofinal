@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Tasación</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../imagenes/LogoPotente.png">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="../imagenes/logo_8404_3143.png" width="200" height="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../secciones/propiedadesVenta.html">Propiedades en venta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../secciones/propiedadesAlquiler.html">Alquileres permanentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../secciones/alquilerTemporario.html">Alquileres de temporada</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1 class="titulo">Solicitar tasación</h1>
+    <h3 class="subtitulo">Complete el siguiente formulario, indicándonos sus datos y qué tipo de propiedad desea tasar; un profesional se comunicará con usted a la brevedad.</h3>
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">¿Cuál es el fin de la tasación?</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+            <option>Venta</option>
+            <option>Alquiler</option>
+            <option>Alquiler temporal</option>
+            <option>Apreciación informal del valor</option>
+            <option>Suceción</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect2">¿Qué tipo de propiedad es?</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>Casa - Chalet</option>
+            <option>Departamento - Ph</option>
+            <option>Lote - Terreno</option>
+            <option>Local - Salón</option>
+            <option>Campo - Quinta</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Información relevante del inmueble</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</body>
+
+<footer class="footer">
+    <a href="../index.html"><img src="/imagenes/logo_8404_3143.png" alt="Potente Propiedades Logo" width="70" height="35"></a>
+    <h8 class="reg">
+        Reg. 3489
+    </h8>
+    <h8 class="secciones">
+        Secciones
+    </h8>
+    <h8>
+        <a href="/secciones/solicitarTasacion.html">Solicitar Tasación</a>
+        <a href="/secciones/propiedadesVenta.html">Propiedades en Venta</a>
+        <a href="/secciones/propiedadesAlquiler.html">Propiedades en Alquiler</a>
+        <a href="/secciones/alquilerTemporario.html">Alquileres Temporarios</a>
+    </h8>
+    <h8>
+        <form class="newsletter">
+            <h8>
+                Suscribite a nuestro Newsletter
+            </h8>
+            <input type="text" name="email" placeholder="email@ejemplo.com">
+        </form>
+    </h8>
+</footer>
+
+</html>

@@ -1,0 +1,119 @@
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box; }
+
+body {
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  font-family: "Oswald", sans-serif;
+  display: grid; }
+
+.titulo {
+  text-align: center; }
+
+.subtitulo {
+  text-align: center; }
+
+.navegacionInicio {
+  color: #011750;
+  display: grid;
+  height: fit-content;
+  list-style: none;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "imgInicio emprendimientos contacto sobreNosotros";
+  gap: 15px;
+  background-color: white;
+  font-size: 32px;
+  border-radius: 20px; }
+
+.imgInicio {
+  justify-self: center;
+  align-self: center;
+  transition: all 1s ease; }
+
+.emprendimientos {
+  justify-self: center;
+  align-self: center; }
+
+.contacto {
+  justify-self: center;
+  align-self: center; }
+
+.sobreNosotros {
+  justify-self: center;
+  align-self: center; }
+
+.buscador {
+  color: #011750;
+  height: auto;
+  text-align: center;
+  background-color: lightblue; }
+
+.pregunta {
+  font-size: 3rem;
+  color: #011750;
+  text-align: center; 
+  grid-area: pregunta;
+  align-self: center;}
+
+.navegacion {
+  font-size: 2rem;
+  text-decoration: none; }
+
+.boxEmprendimientos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "pregunta pregunta pregunta"
+  "emprendimiento1 emprendimiento2 emprendimiento3"; }
+
+.boxContacto {
+  background-color: #F2F2F2;
+  border-radius: 10px; }
+
+.contactoInicio {
+  color: #011750;
+  display: grid;
+  height: fit-content;
+  list-style: none;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  font-size: 32px;
+  text-align: center; }
+
+.boxSobreNosotros {
+  background-color: #F2F2F2;
+  border-radius: 10px; }
+
+.newsletter {
+  text-align: right; }
+
+.navFooter {
+  list-style: none; }
+
+.navbar {
+  color: #011750;
+  text-align: center; }
+
+.alineacionPropiedades {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "prop1 prop1 prop1"
+                        "prop2 prop2 prop2"
+                        "prop3 prop3 prop3"; }
+
+.emprendimiento1{
+  grid-area: emprendimiento1;
+}
+
+.emprendimiento2{
+  grid-area: emprendimiento2;
+}
+
+.emprendimiento3{
+  grid-area: emprendimiento3;
+}
+
+
